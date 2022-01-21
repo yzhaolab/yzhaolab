@@ -2,14 +2,14 @@ body {
   -webkit-backface-visibility: hidden;
   font-family: Helvetica, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
-.vh-40 {
-  height: 40vh;
+.vh-30 {
+  height: 30vh;
 }
 .bg-1 {
-  background: #36b1da;
-  background: -moz-linear-gradient(left, #36b1da 0%, #29c6cd 100%);
-  background: -webkit-linear-gradient(left, #36b1da 0%, #29c6cd 100%);
-  background: linear-gradient(to right, #36b1da 0%, #29c6cd 100%);
+  background: #000;
+  background: -moz-linear-gradient(left, #000 0%, #0f9b0f 100%);
+  background: -webkit-linear-gradient(left, #000 0%, #0f9b0f 100%);
+  background: linear-gradient(to right, #000 0%, #0f9b0f 100%);
 }
 .pab-100px {
   padding-bottom: 100px;
@@ -24,11 +24,11 @@ body {
   font-size: 30vh;
   opacity: 0.4;
   position: absolute;
-  bottom: -3rem;
-  right: 6rem;
+  bottom: 0rem;
+  right: 0rem;
 }
 .text-main-color {
-  color: #29c6cd;
+  color: #0c8918;
 }
 .border-color {
   border-color: #fff;
@@ -37,19 +37,19 @@ body {
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 .hover-border-main-color:hover {
-  border-color: #29c6cd;
+  border-color: #0c8918;
 }
 .hover-text-main-color {
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 .hover-text-main-color:hover {
-  color: #29c6cd;
+  color: #0c8918;
 }
 .cursor-default {
   cursor: default;
 }
 .content {
-  font-size: 16px;
+  font-size: 24px;
 }
 
 .post-content>*:first-child {
@@ -59,7 +59,7 @@ body {
 .content .fake-link {
   text-decoration: none;
   transition: color 0.15s ease-in;
-  color: #29c6cd;
+  color: #0c8918;
 }
 .content a:hover,
 .content .fake-link:hover {
