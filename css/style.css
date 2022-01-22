@@ -21,17 +21,17 @@ body {
   text-align: justify;
 }
 .header-icon {
-  font-size: 30vh;
+  font-size: 20vh;
   opacity: 0.4;
   position: absolute;
-  bottom: 0rem;
+  bottom: 4rem;
   right: 0rem;
 }
 .text-main-color {
   color: #0c8918;
 }
 .border-color {
-  border-color: #fff;
+  border-color: #008000;
 }
 .hover-border-main-color {
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
@@ -49,7 +49,7 @@ body {
   cursor: default;
 }
 .content {
-  font-size: 24px;
+  font-size: 16px;
 }
 
 .post-content>*:first-child {
